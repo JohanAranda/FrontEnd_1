@@ -1,0 +1,272 @@
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+  }
+  
+  #descuento {
+    background-color: #1cd1b0; /* FONDO DESCUENTO */
+    height: 30px;
+  }
+  #descuento_text {
+    position: relative;
+    font-style: normal;
+    color: black;
+    background-color: #1cd1b0; /* TEXTO DESCUENTO */
+    top: 25%;
+    padding-left: 15px;
+    vertical-align: middle;
+  }
+  #tienda {
+    position: sticky;
+    top: 30px;
+    background-color: #00669f; /* IMAGEN  TIENDA */
+    height: 70px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+  }
+  h1 {
+    color: #ffffff;
+    display: inline-block;
+    font-weight: lighter;
+    position: relative; /* TEXTO CARDS AVENGERS */
+    margin-left: 10px;
+    bottom: 30px;
+  }
+  
+  header > div > img {
+    display: inline-block;
+    position: relative;
+    vertical-align: center;
+    left: 30px;
+  }
+  nav {
+    position: relative;
+    background-color: #001d2d;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25); /* CAJA CONTENIDO */
+    height: 50px;
+    text-align: right;
+  }
+  nav > a {
+    display: inline-block;
+    position: relative;
+    color: #ffffff;
+    width: 120px; /* TEXTO CONTENIDO */
+    top: 25%;
+    text-align: center;
+    text-decoration: none;
+  }
+  h1 {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    vertical-align: middle;
+  }
+  
+  .navigator {
+    background-color: black;
+    text-align: right;
+    height: 20px;
+    padding: 10px 0px;
+  }
+  
+  .navigator a {
+    background-color: black;
+    color: white;
+    text-align: right;
+    padding: 0px 10px;
+    height: 10px;
+    text-decoration: none;
+  }
+  
+  .opciones {
+    text-align: right;
+  }
+  
+  .menu {
+    color: #ffffff;
+    text-decoration: none;
+    font-size: 16px;
+    padding-right: 25px;
+  }
+  
+  main {
+    padding-top: 20px;
+  }
+  
+  form {
+    width: 90%;
+    margin: auto;
+  }
+  
+  .formulario {
+    margin: 1% auto 5%;
+    background-color: #00669f;
+    width: 954px;
+    height: 870px;
+    box-shadow: 0px 0px 2px 1px rgba(0, 0, 0, 0.3);
+    border-radius: 49px;
+    padding: 1%;
+  }
+  
+  h3 {
+    font-size: 40px;
+    text-align: center;
+    color: #fbfffd;
+  }
+  
+  p {
+    font-size: 20px;
+    color: #ffffff;
+    text-align: center;
+    padding-top: 40px;
+  }
+  
+  .columna {
+    display: inline-grid;
+    width: 45%;
+    margin: 2%;
+  }
+  
+  label {
+    font-size: 20px;
+    line-height: 50px;
+    text-align: left;
+    color: #ffffff;
+    position: relative;
+  }
+  
+
+  .add > img {
+    height: auto;
+    width: auto;
+    max-width: 78px;
+    max-height: 50px;
+    /* position: absolute; */
+    left: 1030px;
+    text-decoration: none;
+    overflow: hidden;
+    cursor: pointer;
+    
+  }
+  
+  .add > span {
+    /*  position: relative; */
+    position: absolute;
+    display: block;
+    background: url("../img-2/brillog.png") no-repeat;
+    height: 50px;
+    width: 78px;
+    right: 169px;
+    background-position: -245px 0px;
+    left: 122px;
+    /*margin-top: -75px;
+    height: 70px;*/
+    width: 78px;
+    top: 0;
+  }
+  
+  .add span:hover {
+    background-position: -0px 0px;
+    -webkit-transition-property: all;
+    -webkit-transition-duration: 1s;
+    transition-property: all;
+    transition-duration: 1s;
+    height: 50px;
+    width: 49px;
+  }
+  
+  .campo {
+    background: #9db0b6;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box; /*FECHA*/
+    border-radius: 15.3407px;
+    width: 343px;
+    height: 63px;
+  }
+  
+  .campo:focus,
+  textarea:focus {
+    background-color: #fcfcf6; /*COLOR DE FONDO DE DESCRIPCION*/
+  }
+  
+  textarea {
+    margin-top: 50px;
+    width: 343px;
+    height: 307px;
+    background: #ffffff;
+    border: 1.53407px solid rgba(0, 0, 0, 0.1);
+    box-sizing: border-box;
+    border-radius: 15.3407px;
+  }
+  
+  textarea::placeholder {
+    font-size: 20px;
+    line-height: 60px;
+    padding-left: 10px; /* TEXTO PLACEHOLDER*/
+    color: rgba(12, 6, 6, 0.5);
+  }
+  
+  input::placeholder {
+    font-weight: 300;
+    font-size: 50px;
+    line-height: 24px;
+    color: rgba(32, 32, 32, 0.5);
+  }
+  
+  .opciones {
+    font-weight: 300;
+    font-size: 16px;
+    line-height: 25px; /*TIPOS DE PERSONAJE*/
+    text-align: left;
+    color: #ffffff;
+    display: block;
+    padding-bottom: 10px;
+  }
+  
+  .foto {
+    border-radius: 15px;
+    box-sizing: border-box;
+    padding: 10px;
+  }
+  
+  .agregar {
+    display: inline-block;
+    margin-bottom: 30px;
+    padding: 10px 50px;
+    background: #1cd1b0;
+    color: #000000;
+    border-radius: 23px;
+    text-decoration: none;
+    width: 25%;
+    text-align: center;
+    margin-left: 35%; /* BOTON DE AGREGAR*/
+    margin-top: 20px;
+    font-size: 30px;
+    font-weight: bolder;
+    transition: all 0.3s;
+    z-index: 1;
+  }
+  
+  .agregar:hover {
+    transform: scale(1.2);
+    opacity: 0.9; /*ANIMACION*/
+    background-color: #08283a;
+    color: #ffffff;
+  }
+  
+  footer {
+    position: relative;
+    background-color: #00669f;
+    color: #ffffff;
+    width: 100%;
+    text-align: center; /* TODOS LOS DERECHOS RESERVADOS*/
+    margin-top: 40px;
+    padding-top: 40px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    bottom: 0px;
+  }
+  
+  footer > p{
+
+    margin-top: -70px;
+  }

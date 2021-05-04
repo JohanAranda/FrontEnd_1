@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CARD AVENGERS </title>
+    <link rel="stylesheet" href="css/Stylo_Add.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+</head>
+<body>
+    <header>
+        <div id="descuento">
+            <p id="descuento_text">Descuentos 20% </p>   <!--TEXTO DESCUENTO-->
+            </div>
+
+
+        <div id="tienda">
+           <a href="index.html"> <img src="./img-2/header_logo.png"></a>  <!--IMAGEN TIENDA-->
+           <h1>CARDS AVENGERS</h1>  <!--TEXTO CARDS AVENGERS-->
+           </div>
+    </header>
+    <nav id="nav_bar">
+        <a href="contacto.html">Contacto</a>
+        <a href="ingreso.html">Ingresar</a>      <!--ENLACES PARA INGRESAR AL DEMAS CONTENIDO-->
+        <a href="registro.html">Registrarme</a>
+    </nav>
+    <main>
+        <div class="formulario">
+            <h3>¡Agrega a tu avengers!</h3> <!--TITULO-->
+            <p>Agregá tu avengers favorito completando las siguientes opciones</p> <!--SUB TITULO -->
+            <form action="/super heroes 0.1/Add_Avengers.html" method="POST">
+                <div class=columna>
+                    <label>* Nombre</label>
+                    <input class=campo type="text" name="Nombre" id="Nombre" required tabindex="1">  <!--NOMBRE -->
+                   
+                    <label>Fecha</label>
+                    <input class=campo type="date" name="Fecha" id="Fecha" required tabindex="3">  <!--FECHA-->
+
+                    <textarea name="descripcion" id="descripcion" placeholder="Descripción" required tabindex="5"></textarea>  <!--DESCRIPCION-->
+                </div>
+
+                <div class=columna>
+                    <label>* Especie</label>  <!--COLUMNA 2  -->
+                    <select class="campo especie" name="Especie" value="Especie" placeholder="Especie" required tabindex="2">  <!--ESPECIE -->
+                        <option value="Especie">Especie</option>
+                        <option value="Dios">Dios</option>
+                        <option value="SemiDios">Semi Dios</option>      <!--TIPOS DE ESPECIE -->
+                        <option value="Humano">Humano</option>
+                        <option value="Mutante">Mutante</option>
+                    </select>
+                    <label for="addfoto" class="add"> Agregar Foto <img src="./img-2/fotografia.png"><span></span></label> <!--AGREGAR FOTO --> 
+                    <input class=foto type="file" name="Foto" id="Foto" accept=".jpg, .png, .gif" required tabindex="4">
+                    <div>
+                        <p class=poderes>Poderes</p>   <!--TIPOS DE PODERES   -->
+                            <label for="poderes1" class=opciones><input type="checkbox" name="Poderes" Value="SuperFuerza" tabindex="6">Super Fuerza</label>
+                            <label for="poderes2" class=opciones><input type="checkbox" name="Poderes" Value="Volar" tabindex="7">Volar</label>
+                            <label for="poderes3" class=opciones><input type="checkbox" name="Poderes" Value="Inteligencia" tabindex="8">Inteligencia</label>
+                            <label for="poderes4"class=opciones><input type="checkbox" name="Poderes" Value="LeerMentes" tabindex="9">Leer Mentes</label>
+                        <hr><!--llinea divisoria-->
+                        <p class=TipoPersonaje>Tipo de Personaje</p>                      <!--TIPOS DE PERSONAJE -->   
+                            <label class=opciones><input type="radio" name="TipoPersonaje" Value="Heroe" tabindex="10">Héroe/Heroina</label>
+                            <label class=opciones><input type="radio" name="TipoPersonaje" Value="Villano" tabindex="11">Villano/Villana</label>
+                    </div>            
+                </div>
+            </form>
+                <a class=agregar href="index.html">Agregar</a>  <!--AGREGAR -->
+        </div>
+    </main>
+
+    <footer>
+        <p>Todos los derechos reservados a Johan Aranda</p>  <!--TODOS LOS DERECHOS RESERVADOS -->
+    </footer>
+ 
+</body>
+</html>

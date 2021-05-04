@@ -1,0 +1,69 @@
+a {
+    text-decoration: none;
+}
+body {
+    font-family: 'Montserrat', sans-serif;
+    margin: 0;
+}
+
+footer {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: rgb(159, 212, 243);
+    height: 50px;
+}
+.header-div {
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-attachment: scroll;
+    width: auto;
+    height: 400px;
+    color: white;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/lemon-pie.png);
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 20px;
+
+}
+
+.header-text {
+    align-items: baseline;
+    color: white;
+}
+
+.logo-image {
+    object-fit: cover;
+    width: 200px;
+    margin-bottom: 10px;
+    margin-top: 10px;
+}
+li {
+    line-height: 1.5;
+    list-style: none;
+}
+
+
+main {
+    padding: 20px;
+}
+
+.menu {
+    width: 100%;
+    padding: 0 20px;
+    box-sizing: border-box;
+
+}
+
+.menu .inicio {
+    width: 60%;
+    display:block;
+    align-items: center;
+    cursor: pointer;
+    padding: 0px;
+
+}
+
+
+

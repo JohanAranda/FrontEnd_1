@@ -1,0 +1,292 @@
+*{
+    font-family: 'Roboto', sans-serif;
+    box-sizing: border-box;
+    margin: 0px;
+}
+
+#descuento {
+    background-color: #1CD1B0;           /* FONDO DESCUENTO */
+    height: 30px;
+}
+#descuento_text {
+    position: relative;
+    font-style: normal;
+    color: black;
+    background-color: #1CD1B0;           /* TEXTO DESCUENTO */
+    top: 25%;                                 
+    padding-left: 15px;
+    vertical-align: middle;
+}
+#tienda {
+    position:sticky;
+    top:30px;
+    background-color: #00669F;            /* IMAGEN  TIENDA */
+    height: 70px;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);
+
+
+
+}
+h1 {
+    color:#FFFFFF;
+    display: inline-block;
+    font-weight: lighter;
+    position: relative;           /* TEXTO CARDS AVENGERS */
+    margin-left: 10px;
+    bottom: 30px;
+}
+
+header>div>img {
+    display: inline-block;
+    position: relative;
+    vertical-align: center;              
+    left: 30px;
+}
+nav {
+    position: relative;
+    background-color: #001D2D;
+    box-shadow: 0px 10px 7px rgba(0, 0, 0, 0.25);          /* CAJA CONTENIDO */
+    height: 50px;
+    text-align: right;
+    
+}
+nav>a {
+    display: inline-block;
+    position: relative;
+    color: #FFFFFF;
+    width: 120px;                        /* TEXTO CONTENIDO */
+    top: 25%;
+    text-align: center;
+    text-decoration: none;
+}
+h1 {
+    display: inline-block;
+    position: relative;
+    padding-left: 30px;
+    vertical-align: middle;
+}
+
+.avengers {
+    display: inline-block;
+    height: auto;
+    width: 33%;
+    position: relative;
+    padding-bottom: 15px;
+}
+.heart{
+    position:absolute;
+    width: 25px;
+    height: 20px;                         /* "IMAGEN CORAZON "*/
+    top: 25px;
+    left: 25px;
+    transition: all .3s ease-in-out;
+}
+
+.heart:hover{ 
+    transform: rotate(360deg);                          /* animacion rotar*/
+
+}
+
+.background_vengador{
+    position:relative;
+    display: flex;
+    color: #FFFFFF;
+    background-size: cover;
+    margin: 150px auto 0px auto;                  /* "IMAGEN FONDO  VENGADOR "*/
+    height: 170px;
+    width: 293px;
+    border-top-left-radius: 28px;
+    border-top-right-radius: 28px;  
+}
+.picture_avengers {
+    position: relative;
+    display: block;
+    border-radius: 50%;
+    height: 126px;
+    width: 126px;                                   /* "IMAGEN VENGADOR "*/
+    left: 83.5px;
+    top: 107px;
+    z-index: 99;
+}
+.text_avengers{
+    background-color: #f3f3f3;
+    display: block;
+    position:relative;
+    color: #FFFFFF;
+    background-size: cover;
+    margin-left: auto;                                     /*"CONTENIDO CARS" */
+    margin-right: auto;
+    margin-bottom: 120px;
+    height: auto;
+    width: 290px;
+    padding: 10px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+}
+.name_avengers  {
+    display: block;
+    color: black;
+    width: 100%;
+    text-align: center;                    /* NOMBRE "CONTENIDO CARS" */
+    padding-top: 75px;
+    padding-bottom: 10px;
+}
+.descrip_avengers {
+    position: relative;
+    display: block;
+    color: #000000;                       /*DESCRIPCION "CONTENIDO CARS" */
+    padding: 5px;
+    height: 150px;
+    text-align: justify;
+}
+.boton{
+    background-color: #00669F;
+    position: relative;
+    display: block;
+    color: #FFFFFF;
+    margin: 15px auto 15px auto;
+    height: 30px;                                /*BOTON VER MAS*/
+    width: 40%;
+    padding-top: 5px;
+    text-align: center;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all .3s;
+    z-index: 1;
+  
+}
+
+.boton:hover{
+
+    transform: scale(1.2);
+    opacity: .9;                                   /* animacion scala*/
+
+}
+footer {
+    position: relative;
+    background-color: #00669F;
+    color: #FFFFFF;
+    width: 100%;
+    height: 50px;
+    text-align: center;                              /* TODOS LOS DERECHOS RESERVADOS*/
+    margin-top: 40px;
+    padding-top: 15px;
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.25);
+    bottom: 0px;
+}
+
+.plus-botton {
+    position: fixed;
+    right: 15px;
+    top: 50%;
+    background: #00628f;
+    color: #FFFFFF;
+    width: 40px;                                /* BOTON ( + )*/
+    line-height: 40px;
+    border-radius: 50%;
+    font-size: 20px;
+    text-align: center;
+    cursor: pointer;
+
+}
+   
+.main_forms {
+    padding: 80px;
+    text-align: center;
+    }
+.section_form {
+    text-align: center;
+    padding-left: 25%;
+    padding-right: 25%;
+}
+.h2_forms {
+    font-family: 'Inter', sans-serif;
+    font-size: 60px;
+    text-align: left;
+    margin-bottom: 20px;
+
+}
+p>input {
+    width: 100%;
+    margin-top: 15px;
+    height: 45px;
+    border: 2px solid #000000;
+    color: #000000;
+    font-size: 15px;
+    font-family: 'Karla', sans-serif;
+}
+p>select {
+    width: 100%;
+    margin-top: 15px;
+    font-family: 'Karla', sans-serif;
+    height: 45px;
+    border: 2px solid #000000;            /*SELECCIONAR*/
+    color: #000000;
+    font-size: 15px
+}
+p>textarea {
+    width: 100%;
+    margin-top: 15px;
+    height: 190px;
+    border: 2px solid #000000;  
+    color: #000000;
+    font-size: 15px
+}
+.reset_button {
+    margin-top: 30px;
+    margin-bottom: 20px;
+    background-color: #888888;
+    border-radius: 18px;
+    height: 45px;
+    width: 45%;                                /*RESETEAR*/
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    margin-right: 3%;
+    cursor: pointer;
+    transition: all .3s;
+    z-index: 1; 
+}
+
+.reset_button:hover{
+
+    transform: scale(1.2);                   /*ANIMACION RESET */
+    font-size: 18px;
+    opacity: .9; 
+}
+.submit_button {
+    background-color: #1CD1B0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 18px;
+    height: 45px;
+    width: 45%;                                /* ENTRAR*/
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    margin-left: 3%;
+    cursor: pointer;
+    transition: all .2s;
+    z-index: 1;
+}
+
+.submit_button:hover{
+     transform: scale(1.2);      /* ANIMACION DE  ENTRAR*/
+     font-size: 18px; 
+    opacity: .9; 
+}
+
+#login{
+    background-color: #1CD1B0;
+    margin-top: 30px;
+    margin-bottom: 20px;
+    border-radius: 18px;                        /* INGRESO*/
+    height: 45px;
+    width: 100%;
+    font-size: 18px;
+    font-weight: bold;
+    font-family: 'Karla', sans-serif;
+    cursor: pointer;
+}
+
+ 
+
