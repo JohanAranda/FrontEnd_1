@@ -20,7 +20,7 @@ footer {
     width: auto;
     height: 400px;
     color: white;
-    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../img/lemon-pie.png);
+    background-image: linear-gradient(rgba(0, 0, 0, 0.1), rgba(0, 0, 0, 0.7)), url(../lemon2/img/lemon-pie.png);
     display: flex;
     flex-direction: column;
     justify-content: flex-end;
