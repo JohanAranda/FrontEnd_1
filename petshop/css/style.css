@@ -1,0 +1,211 @@
+@import url('https://fonts.googleapis.com/css2? family = Roboto: wght @ 400; 700 & display = swap');
+
+:root{
+    --colorblanco:#FFFFFF;
+    --colornegro: #222222;
+    --colornaranja:#F0A83E;
+    --colorcafe:#3C2313;
+        
+    }
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+header{
+    background-color: var(--colornaranja);
+    color:var(--colorblanco);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding:20px;
+}
+
+header h1 span{
+    color: var(--colorcafe);
+}
+
+header ul{
+    display: flex;
+    padding: 15px;
+}
+
+header nav ul li a{
+    text-decoration: none;
+    color: var(--colorblanco);
+    padding: 8px;
+
+}
+
+li {
+    list-style-type: none;
+    font-weight:bold;
+
+}
+
+.cat_dog{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+
+
+.miau , .guau{
+    width: 20px;
+    height: 30px;
+}
+
+
+.menu{
+    display: none;
+}
+
+.productos{
+    margin-top: 3%;
+}
+
+h2 , h3 , h4 , h5{
+text-align: center;
+}
+
+h2,h3{
+    color: var(--colorcafe);
+}
+
+h2{
+    font-size: 40px;
+}
+
+h4{
+    color:#666666
+}
+
+h5{
+    color: var(--colornaranja);
+    font-size: 20px;
+}
+
+.cards{
+    display: flex;
+    justify-content: space-around;
+}
+
+
+.footer_top{
+    display: flex;
+    justify-content: space-around;
+    background-color: var(--colornaranja);
+    margin-top: 50px;
+    padding: 20px;
+}
+
+form{
+    display: flex;   
+    justify-content: center; 
+   
+}
+
+.enviar{
+    display: flex;
+    color: var(--colorblanco);
+    align-items: center;
+    justify-content: center;
+   
+}
+
+.enviar >p{
+    font-size: 1.5rem;
+    padding: 5px;
+}
+
+.carta{
+    font-size:  2.5rem;
+}
+
+.email{
+    border-radius: 15px;
+    padding: 0px 60px;
+    justify-content: flex-start;
+    display: flex;
+
+      
+}
+
+input[type='submit']{
+    background-color: var(--colorcafe);
+    border-radius: 50px;
+    padding: 20px 20px;
+    cursor: pointer;
+    z-index: auto;
+
+}
+
+.suscribirme input{
+    color:var(--colorblanco);
+    text-align: center;
+    font-weight: 700;
+    
+}
+
+p{
+    font-weight: 400;
+}
+
+.derechos{
+    background-color: var(--colornegro);
+    padding: 5px 0px;
+    cursor: pointer;
+
+}
+.derechos>p{
+    color:var(--colorblanco);
+    text-align: center;
+}
+
+
+
+
+
+/*------responsive--------*/
+
+@media screen and (max-width:480px){
+
+    nav{
+        display: none;
+    }
+
+    .cat_dog{
+        font-size: 0.5rem;
+     }
+
+     .enviar >p{
+        font-size: 1 rem;
+        padding: 5px;
+    }
+
+     .menu{
+         display: flex;
+     }
+
+     .cards{
+         display: flex;
+         flex-direction: column;
+         justify-content: center;
+         align-items: center;
+         cursor: pointer;
+     }
+
+     .footer_top{
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    }
+
+
+}
+
